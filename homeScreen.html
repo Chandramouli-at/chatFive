@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatFive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/homeScreen.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftside">
+        <!--header-->
+        <div class="header">
+          <div class="appName">
+            <h4 style="font-family: 'Righteous', cursive">chatFive</h4>
+          </div>
+          <ul class="nav_icons">
+            <li><ion-icon name="scan-circle-outline"></ion-icon></li>
+            <li><ion-icon name="chatbox"></ion-icon></li>
+            <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+          </ul>
+        </div>
+        <!--search -->
+        <div class="search_chat">
+          <div>
+            <input type="text" placeholder="Search or start new chat" />
+            <ion-icon name="search-outline"></ion-icon>
+          </div>
+        </div>
+        <!--chatlist-->
+        <div class="chatlist">
+          <div class="block">
+            <div class="imgbx">
+              <img src="/images/guhan.jpg" class="cover" />
+            </div>
+            <div class="details">
+              <div class="listHead">
+                <h4>Guhan</h4>
+                <p class="time">12:17 pm</p>
+              </div>
+              <div class="message_p">
+                <p>Call me once you boarded bus!</p>
+              </div>
+            </div>
+          </div>
+          <div class="block unread">
+            <div class="imgbx">
+              <img src="/images/chandru.png" class="cover" />
+            </div>
+            <div class="details">
+              <div class="listHead">
+                <h4>Chandru</h4>
+                <p class="time">2:40 pm</p>
+              </div>
+              <div class="message_p">
+                <p>am fine da</p>
+                <b>1</b>
+              </div>
+            </div>
+          </div>
+          <div class="block">
+            <div class="imgbx">
+              <img src="/images/vijay.jpg" class="cover" />
+            </div>
+            <div class="details">
+              <div class="listHead">
+                <h4>Vijay</h4>
+                <p class="time">8:23 am</p>
+              </div>
+              <div class="message_p">
+                <p>sollu da</p>
+              </div>
+            </div>
+          </div>
+          <div class="block">
+            <div class="imgbx">
+              <img src="/images/harold.jpg" class="cover" />
+            </div>
+            <div class="details">
+              <div class="listHead">
+                <h4>Harold</h4>
+                <p class="time">7:13 am</p>
+              </div>
+              <div class="message_p">
+                <p>tmrw exam irruku</p>
+              </div>
+            </div>
+          </div>
+          <div class="block">
+            <div class="imgbx">
+              <img src="/images/arshid.jpg" class="cover" />
+            </div>
+            <div class="details">
+              <div class="listHead">
+                <h4>Arshid</h4>
+                <p class="time">Yesterday</p>
+              </div>
+              <div class="message_p">
+                <p>un aalu number annupu da</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rightSide">
+        <div class="header2">
+          <div class="imgText">
+            <div class="userimg">
+              <img src="/images/guhan.jpg" class="cover" />
+            </div>
+            <h4>Guhan<br /><span>online</span></h4>
+          </div>
+          <ul class="nav_icons">
+            <li><ion-icon name="search-outline"></ion-icon></li>
+            <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+          </ul>
+        </div>
+        <!--chatbox-->
+        <div class="chatBox">
+          <div class="message my_message">
+            <p>Hi<br /><span>12:15 pm</span></p>
+          </div>
+          <div class="message frnd_message">
+            <p>Hello<br /><span>12:15 pm</span></p>
+          </div>
+          <div class="message my_message">
+            <p>
+              What are you doing? Come to my house<br /><span>12:16 pm</span>
+            </p>
+          </div>
+          <div class="message frnd_message">
+            <p>Okay, will arrive by afternoon!<br /><span>12:16 pm</span></p>
+          </div>
+          <div class="message my_message">
+            <p>Call me once you boarded bus!<br /><span>12:17 pm</span></p>
+          </div>
+        </div>
+        <!---chat input-->
+        <div class="chatbox_input">
+          <ion-icon name="happy-outline"></ion-icon>
+          <ion-icon name="attach-outline"></ion-icon>
+          <input type="text" placeholder="Type a message" />
+          <ion-icon name="mic"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
